@@ -3875,7 +3875,7 @@ return {
 		Minimize = color4("FEBC2E", 100),
 		Zoom = color4("28C840", 100),
 
-		SwitchAccent = color4("478CF6", 100),
+		SwitchAccent = color4("E60852", 100),
 
 		Selection = color4("E60852", 100), -- 007AFF
 		SelectionStroke = color4("E60852", 60),
@@ -3919,7 +3919,7 @@ return {
 		Slider = {
 			Track = color4("2C2C2E", 100),
 			TrackEffects = color4("000000", 10),
-			TrackFill = color4("478CF6", 100),
+			TrackFill = color4("E60852", 100),
 
 			Thumb = color4("FFFFFF", 100),
 			ThumbStroke = color4("000000", 20),
@@ -3929,8 +3929,8 @@ return {
 		Button = {
 			Shadow = value(Color3.fromRGB(50, 50, 50)),
 			FillPrimary = value(ColorSequence.new({
-				ColorSequenceKeypoint.new(0, self.Theme.Controls.Selection[1].Value),
-				ColorSequenceKeypoint.new(1, self.Theme.Controls.Selection[1].Value),
+				ColorSequenceKeypoint.new(0, Color3.fromHex("E60852")),
+				ColorSequenceKeypoint.new(1, Color3.fromHex("E60852")),
 			})),
 			FillSecondary = value(ColorSequence.new({
 				ColorSequenceKeypoint.new(0, Color3.fromRGB(60, 60, 60)),
@@ -4009,10 +4009,10 @@ return {
 		Minimize = color4("FEBC2E", 100),
 		Zoom = color4("28C840", 100),
 
-		SwitchAccent = color4("478CF6", 100),
+		SwitchAccent = color4("E60852", 100),
 		Selection = color4("E60852", 100),
 		SelectionStroke = color4("E60852", 50),
-		SelectionFocused = color4("0A82FF", 100),
+		SelectionFocused = color4("E60852", 100),
 		SelectionFocusedAccent = color4("FFFFFF", 85),
 
 		Sidebar = color4("EAEAEA", 84),
@@ -4060,8 +4060,8 @@ return {
 		Button = {
 			Shadow = value(Color3.new(0, 0, 0)),
 			FillPrimary = value(ColorSequence.new({
-				ColorSequenceKeypoint.new(0, self.Theme.Controls.Selection[1].Value),
-				ColorSequenceKeypoint.new(1, self.Theme.Controls.Selection[1].Value), -- color buttpon
+				ColorSequenceKeypoint.new(0, Color3.fromHex("E60852")),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 122, 255)), -- color buttpon
 			})),
 			FillSecondary = value(ColorSequence.new({
 				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255)),
